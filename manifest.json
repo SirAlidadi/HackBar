@@ -9,7 +9,7 @@
 	"manifest_version": 2,
 	"name": "HackBar",
 	"version": "1.0.0",
-	"homepage_url": "https://github.com/",
+	"homepage_url": "https://github.com/SirAlidadi/HackBar",
 	"icons": {
 		"48": "icons/icon.png"
 	},
