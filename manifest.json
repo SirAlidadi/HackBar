@@ -1,0 +1,21 @@
+{
+	"applications":{
+        "gecko":{
+            "id":"hackbar@siralidadi"
+        }
+    },
+    "author":"SirAlidadi",
+	"description": "A HackBar for new firefox. This addon is written in webextension and alternatives to the XUL version of original Hackbar.",
+	"manifest_version": 2,
+	"name": "HackBar",
+	"version": "1.0.0",
+	"homepage_url": "https://github.com/",
+	"icons": {
+		"48": "icons/icon.png"
+	},
+	"permissions": ["tabs", "activeTab", "webRequest", "webRequestBlocking", "<all_urls>", "storage"],
+	"devtools_page": "theme/hackbar.html",
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
